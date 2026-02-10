@@ -1,64 +1,64 @@
-<!DOCTYPE html>
-<html lang="en">
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    scroll-behavior: smooth;
+}
 
-<head>
-    <title class="owner-name">#</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/themes/prism.css" rel="stylesheet" />
-    <link rel="stylesheet" href="style.css" type="text/css">
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+/* MTA Blue Navbar */
+.mta-navbar {
+    background-color: #0039A6; /* MTA Blue */
+}
 
-</head>
 
-<body>
+/* Hero Section */
+#hero {
+    background: url('bus-hero.jpg') center center/cover no-repeat;
+    height: 100vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-shadow: 2px 2px 4px #000;
+}
 
-    <!-- Navbar -->
+/* Navbar */
+.navbar {
+    padding: 1rem 2rem;
+}
+.navbar-brand {
+    font-size: 1.8rem;
+}
 
-    <nav class="navbar navbar-expand-lg">
-        <a class="navbar-brand owner-name" href="#"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+/* Cards */
+.card i {
+    color: #0d6efd; /* Bootstrap primary blue */
+}
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="#".html">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#" id="github" target="_blank">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Resources</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#" target="_blank">Statistics</a>
-                </li>
-                 <li class="nav-item">
-                    <a class="nav-link" href="#">Support Us</a>
-                </li>
-                 <li class="nav-item">
-                    <a class="nav-link" href="#">Contanct Us</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
+/* Sections */
+section {
+    padding: 80px 0;
+}
 
-    <!-- First Container -->
-    <div class="container-fluid bg-1 text-center">
-  <section class='left section'>
- <video autoplay loop muted src="logo-video.mp4"> </video>
+h2 {
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    font-size: 1rem;
+     background-color: #0039A6; /* MTA Blue */
+}
 
 
 
 
 
 
-</body>
 
-</html>
+
+
+
+
+
+
