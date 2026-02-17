@@ -219,6 +219,12 @@ h2 {
 #petition-text .btn:hover {
     background-color: #0056b3; /* darker hover effect */
 }
+#petition-text a {
+    display: block;
+    width: fit-content;
+    margin: 20px auto 0 auto;
+}
+
 
 /* Contact Box */
 .contact-box {
@@ -262,16 +268,3 @@ footer {
     font-size: 1rem;
      background-color: #0039A6; /* MTA Blue */
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
