@@ -10,7 +10,7 @@ body {
 }
 
 
-#hero {
+#title {
     background: url('img1.png') center center/cover no-repeat;
     height: 87vh;
     display: flex;
@@ -23,17 +23,17 @@ body {
     text-shadow: 2px 2px 6px #000;
 }
 
-#hero h1 {
+#title h1 {
     font-size: 6rem;              /* bigger title */
     margin: 0;
 }
 
-#hero p {
+#title p {
     font-size: 1.2rem;              /* bigger subtitle */
     margin: 15px 0 25px 0;
 }
 
-#hero .btn {
+#title .btn {
     font-size: 1.5rem;
     padding: 12px 30px;
     background-color: #007bff;
@@ -43,7 +43,7 @@ body {
     text-decoration: none;
 }
 
-#hero .btn:hover {
+#title .btn:hover {
     background-color: #0056b3;
 }
 
@@ -114,38 +114,53 @@ h2 {
     color: #333;
 }
 /* Resources Section */
+/* Resources Section Styling */
 #resources {
-    background: #f8f9fa;
-    padding: 80px 0;
+    background-color: #f8f9fa;
 }
 
 #resources h2 {
-    text-align: center;
-    margin-bottom: 50px;
-    color: #0033a0; /* MTA dark blue */
+    letter-spacing: 1px;
+    text-transform: uppercase;
 }
 
-#resources .resource-list {
-    padding: 0;
-    margin: 0;
+/* Card Styling */
+#resources .card {
+    border-radius: 12px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    padding: 15px;
 }
 
-#resources .resource-item a {
-    display: block;
-    padding: 20px 40px;
-    border-radius: 10px;
-    text-decoration: none;
-    color: #0033a0;
-    border: 2px solid #0033a0;
-    font-size: 1.2rem;
+/* Hover Effect */
+#resources .card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* Title Styling */
+#resources .card-title {
+    color: #0d6efd; /* Bootstrap primary */
+    margin-bottom: 15px;
+}
+
+/* Description Text */
+#resources .card-text {
+    color: #555;
+    font-size: 0.95rem;
+    line-height: 1.6;
+}
+
+/* Button Styling */
+#resources .btn-outline-primary {
+    border-radius: 25px;
+    padding: 8px 20px;
     transition: all 0.3s ease;
 }
 
-#resources .resource-item a:hover {
-    background: #0033a0;
+/* Button Hover */
+#resources .btn-outline-primary:hover {
+    background-color: #0d6efd;
     color: #fff;
-    transform: translateY(-5px);
-    box-shadow: 0 8px 15px rgba(0,0,0,0.2);
 }
 
 #about {
